@@ -1,4 +1,4 @@
-import Chef from './chef.jpg';
+import Chef from './chef.png';
 
 const createHomePage = () => {
   const content = document.querySelector("#content");

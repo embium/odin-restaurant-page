@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _chef_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./chef.jpg */ \"./src/chef.jpg\");\n\n\nconst createHomePage = () => {\n  const content = document.querySelector(\"#content\");\n\n  const mainContent = document.createElement(\"main\");\n  mainContent.setAttribute(\"id\", \"main\");\n  mainContent.classList.add(\"main\");\n\n  const homeContent = document.createElement(\"div\");\n  homeContent.classList.add(\"home\");\n\n  const content1 = document.createElement(\"p\");\n  content1.textContent = \"Best pizza in your country\";\n\n  const content2 = document.createElement(\"p\");\n  content2.textContent = \"Made with passion since 1908\";\n\n  const img = new Image();\n  img.src = _chef_jpg__WEBPACK_IMPORTED_MODULE_0__;\n\n  const content3 = document.createElement(\"p\");\n  content3.textContent = \"Order online or visit us!\";\n\n  homeContent.appendChild(content1);\n  homeContent.appendChild(content2);\n  homeContent.appendChild(img);\n  homeContent.appendChild(content3);\n\n  mainContent.appendChild(homeContent);\n  content.appendChild(mainContent);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHomePage);\n\n//# sourceURL=webpack://odin-restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _chef_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./chef.png */ \"./src/chef.png\");\n\n\nconst createHomePage = () => {\n  const content = document.querySelector(\"#content\");\n\n  const mainContent = document.createElement(\"main\");\n  mainContent.setAttribute(\"id\", \"main\");\n  mainContent.classList.add(\"main\");\n\n  const homeContent = document.createElement(\"div\");\n  homeContent.classList.add(\"home\");\n\n  const content1 = document.createElement(\"p\");\n  content1.textContent = \"Best pizza in your country\";\n\n  const content2 = document.createElement(\"p\");\n  content2.textContent = \"Made with passion since 1908\";\n\n  const img = new Image();\n  img.src = _chef_png__WEBPACK_IMPORTED_MODULE_0__;\n\n  const content3 = document.createElement(\"p\");\n  content3.textContent = \"Order online or visit us!\";\n\n  homeContent.appendChild(content1);\n  homeContent.appendChild(content2);\n  homeContent.appendChild(img);\n  homeContent.appendChild(content3);\n\n  mainContent.appendChild(homeContent);\n  content.appendChild(mainContent);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHomePage);\n\n//# sourceURL=webpack://odin-restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -200,13 +200,13 @@ eval("module.exports = __webpack_require__.p + \"6a00eed71b5c6ed22330.jpg\";\n\n
 
 /***/ }),
 
-/***/ "./src/chef.jpg":
+/***/ "./src/chef.png":
 /*!**********************!*\
-  !*** ./src/chef.jpg ***!
+  !*** ./src/chef.png ***!
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"47ac2f25c4e5b826f214.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/chef.jpg?");
+eval("module.exports = __webpack_require__.p + \"3775a89200c940bff3b0.png\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/chef.png?");
 
 /***/ }),
 
