@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "dahliaScript";
+  src: url("./dahliaScript-Italic.ttf.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+html {
+  line-height: 1.6;
+}
+
+:root {
+  --font-color: #eee;
+  --font-color-dark: #aaa;
+  --border-color: #222;
+  --background-light: rgba(0, 0, 0, 0.6);
+  --background-light-hover: rgba(99, 99, 99, 0.4);
+  --background-dark: rgba(0, 0, 0, 0.9);
+}
+
+body {
+  color: var(--font-color);
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-style: none;
+  border-bottom-style: none;
+  outline: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  font-size: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--background-dark);
+  border-bottom: 1px solid var(--border-color);
+}
+
+header .logo {
+  font-family: "dahliaScript";
+  color: white;
+  font-size: 8rem;
+  margin-bottom: 1rem;
+}
+
+.button-nav {
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.button-nav.active {
+  border-bottom: 2px solid var(--font-color);
+}
+
+.button-nav:hover {
+  transition: transform 0.3s;
+  transform: translateY(-1rem);
+}
+
+.main {
+  max-width: 700px;
+  padding: 4rem;
+  margin: 6rem 0;
+  font-size: 1.5rem;
+  background-color: var(--background-light);
+  border: 1px solid var(--border-color);
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: var(--background-light);
+  font-family: "Courier New", Courier, monospace;
+  transition: background-color 0.3s;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.menu-item:hover {
+  background-color: #ffffff31;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 618px;
+}
+
+.home p {
+  padding: 1rem;
+}
+
+.home img {
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: 90%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 618px;
+  animation: fadeIn 1.5s;
+}
+
+.contact p {
+  width: 100%;
+  padding: 1rem;
+}
+
+.contact img {
+  max-height: 420px;
+  padding: 1rem;
+  opacity: 90%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+  background-color: var(--background-light);
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
